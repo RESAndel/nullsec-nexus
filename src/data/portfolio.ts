@@ -54,10 +54,10 @@ export const certifications = [
 ];
 
 export const contactLinks = [
-  { icon: Mail, label: "Email", href: "mailto:your.email@example.com" },
-  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/in/yourprofile" },
-  { icon: Github, label: "GitHub", href: "https://github.com/yourusername" },
-  { icon: Twitter, label: "Twitter", href: "https://twitter.com/yourhandle" }
+  { icon: Mail, label: "Email", href: "resandelgming@gmail.com" },
+  { icon: Linkedin, label: "LinkedIn", href: "https://pranx.com/matrix-code-rain/" },
+  { icon: Github, label: "GitHub", href: "https://github.com/RESAndel" },
+  { icon: Twitter, label: "Twitter", href: "https://pranx.com/bios/" }
 ];
 
 export const navLinks = ["About", "Skills", "Projects", "Certifications", "Contact"];
