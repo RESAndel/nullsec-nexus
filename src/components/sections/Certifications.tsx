@@ -12,7 +12,7 @@ export const Certifications = () => {
           className="text-5xl font-bold text-center mb-16 text-primary"
           style={{ textShadow: "0 0 30px hsl(var(--primary) / 0.4)" }}
         >
-          Certifications 📜
+          Certifications 
         </motion.h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
           {certifications.map((cert, i) => (
