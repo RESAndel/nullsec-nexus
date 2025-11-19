@@ -12,7 +12,7 @@ export const Contact = () => {
           className="text-5xl font-bold text-center mb-16 text-primary"
           style={{ textShadow: "0 0 30px hsl(var(--primary) / 0.4)" }}
         >
-          Get In Touch 📬
+          Get In Touch 
         </motion.h2>
         <div className="flex flex-wrap justify-center gap-6 max-w-4xl mx-auto">
           {contactLinks.map((contact, i) => {
