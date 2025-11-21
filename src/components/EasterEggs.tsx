@@ -19,7 +19,7 @@ export const EasterEggs = () => {
         // Cookie easter egg at 9 clicks
         if (newCount === 9 && !showCookie) {
           setShowCookie(true);
-          setTimeout(() => setShowCookie(false), 3000);
+          setTimeout(() => setShowCookie(false), 10000);
         }
         
         // Secret button appears at 20 clicks
@@ -38,7 +38,7 @@ export const EasterEggs = () => {
         
         if (newIndex === konamiCode.length) {
           setShowKonami(true);
-          setTimeout(() => setShowKonami(false), 3000);
+          setTimeout(() => setShowKonami(false), 20000);
           setKonamiIndex(0);
           
           // Add tilt effect to body
@@ -89,8 +89,8 @@ export const EasterEggs = () => {
         {showCookie && (
           <PopupContent>
             <div className="text-6xl mb-4 animate-bounce">🍪</div>
-            <div className="text-background text-2xl font-bold">You found the cookie!</div>
-            <div className="text-background mt-2">Persistence pays off 😎</div>
+            <div className="text-background text-2xl font-bold">here u go !</div>
+            <div className="text-background mt-2">curiocity pays off </div>
           </PopupContent>
         )}
 
@@ -98,7 +98,7 @@ export const EasterEggs = () => {
           <PopupContent>
             <div className="text-6xl mb-4 animate-pulse">🎮</div>
             <div className="text-background text-2xl font-bold">KONAMI CODE ACTIVATED!</div>
-            <div className="text-background mt-2">You're a true gamer 🔥</div>
+            <div className="text-background mt-2">You're a human </div>
           </PopupContent>
         )}
 
@@ -106,7 +106,7 @@ export const EasterEggs = () => {
           <PopupContent>
             <div className="text-6xl mb-4 animate-spin">🎉</div>
             <div className="text-background text-2xl font-bold">SECRET UNLOCKED!</div>
-            <div className="text-background mt-2">You're too curious for your own good 😏</div>
+            <div className="text-background mt-2">now here is the trick but it only work on a pc : ⬆️⬆️⬇️⬇️⬅️➡️⬅️➡️🅱️🅰️</div>
           </PopupContent>
         )}
       </AnimatePresence>
